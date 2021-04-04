@@ -3,7 +3,7 @@ const app = express();
 const candidates = require("./candidates/candidates")
 const cors = require('cors')
 
-app.use(cors()) // Use this after the variable declaration
+app.use(cors())
 
 // candidates route
 app.use("/candidates", candidates);
